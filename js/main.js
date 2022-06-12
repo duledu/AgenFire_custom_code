@@ -33,9 +33,9 @@ function isScrolledIntoView(elem) {
 }
 
 $(window).scroll(function () {
-    $('.textbox').each(function () {
-        if (isScrolledIntoView(this) === true) {
-            $(this).addClass('visible');
+    $('.aios-scroll-id-hp-33').each(function () {
+        if (isScrolledIntoView('.section2') === true) {
+            $(this).addClass('nav-active-section');
         }
     });
 
